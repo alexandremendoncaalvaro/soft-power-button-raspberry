@@ -1,6 +1,6 @@
 # Soft power button for Raspberry Pi
 
-Easily install a soft power button on Raspbery Pi
+Easily install a soft power button on Raspberry Pi
 
 # Background
 
