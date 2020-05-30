@@ -11,8 +11,10 @@ sudo \cp listen-for-shutdown.sh /etc/init.d/
 sudo chmod +x /usr/local/bin/listen-for-shutdown.py
 sudo chmod +x /etc/init.d/listen-for-shutdown.sh
 
-
 echo "registering script on boot..."
 sudo update-rc.d listen-for-shutdown.sh defaults
+
+echo "removing installation files..."
+sudo rm -rf ~/soft-power-button
 
 echo "DONE! Reboot to start the service"

@@ -1,19 +1,18 @@
 # Soft power button for Raspberry Pi
 
-Easy install a soft power button on Raspbery Pi
-
+Easily install a soft power button on Raspbery Pi
 
 # Background
 
-Like ATX Power supply purpose on PCs, we need to avoid corrupted or lost data when turn off devices with embedded operating system environments.  
+Like ATX Power supply purpose on PCs, we need to avoid corrupted or lost data when turning off devices with embedded operating system environments.
 So, this is a simple way to install and use a similar resource for Raspberry Pi with Raspbian.
 
 ## Requirements:
 * Raspberry Pi with Raspbian
-* Push button (with or without LED)
+* Push-button (with or without LED)
 
->If your button have LED use a resistor  
-Use this to calculate the resistor: https://www.hobby-hour.com/electronics/ledcalc.php
+>If your button have LED use a resistor to drop-down current  
+Use this to calculate the resistor value: https://www.hobby-hour.com/electronics/ledcalc.php
 
 ## Hardware connection
 
@@ -22,11 +21,15 @@ Use this to calculate the resistor: https://www.hobby-hour.com/electronics/ledca
 
 ## Install
 
-Run in Raspberry Pi Terminal:
+* Run in Raspberry Pi Terminal:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/alexandremendoncaalvaro/soft-power-button-raspberry/master/install.sh)"
 ```
 
-Reboot Raspberry Pi
+* Reboot Raspberry Pi
 
-Done!
+* Done!
+
+## Usage
+
+Like in modern PCs, just press the power button to turn it on or off.
