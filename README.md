@@ -33,3 +33,11 @@ Use this to calculate the resistor value: https://www.hobby-hour.com/electronics
 ## Usage
 
 Like in modern PCs, just press the power button to turn it on or off.
+
+# References
+The installation process of Home Brew: https://brew.sh/
+https://macrofab.com/blog/power-control-product-starting-stopping-electrons/
+https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
+https://github.com/Howchoo/pi-power-button
+https://gist.github.com/massimomusante/a7a6976654cb832ca7b523e903b0209e
+https://gist.github.com/massimomusante/fbc2cf5170be469f7cecb96963f61eae
